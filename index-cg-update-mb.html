@@ -11,17 +11,30 @@
 </head>
 <body>
 	<div class="wrapper" id="dkLogin">
+		<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+			  <div class="modal-content">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+				<div class="modal-body">
+				  <img src="images/code1.png" alt="" />
+				</div>
+			  </div>
+			</div>
+		</div>
 		<div id="layout">
 			<div class="header" id="list-item-1">
 				<div class="header-center container p-0">
-					<a href="#" class="mt-sm-1 mt-md-2 d-block logo"><img class="d-block pt-2" src="images/logog.png" alt=""/></a>
+					<ul class="logotop d-flex mt-2">
+						<li><a href="https://chiengioi.vplay.vn" class="home" target="_blank"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="mt-sm-1 mt-md-2 d-block logo ms-2"><img class="d-block" src="images/logog.png" alt=""/></a></li>
+					</ul>
 					<a href="javascript:void(0)" class="naptien mb-sm-2 d-block">
 						<img class="d-block" src="images/text.png" alt=""/>
 						<img class="d-block light" src="images/text.png" alt="" />
 					</a>
 				</div><!---Headercenter-->
 				<div class="floatbar">
-					<a href="#" class="btn-giftcode">
+					<a class="btn-giftcode" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
 						<img class="d-block" src="images/btn-gift.png" alt=""/>
 						<img class="d-block light" src="images/btn-gift.png" alt=""/>
 					</a>
