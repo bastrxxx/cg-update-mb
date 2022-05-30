@@ -395,7 +395,6 @@ main {
   transform: scale(1.02);
 }
 .chuoisukien .container ul li a.btn.disabled {
-  filter: grayscale(100);
   cursor: default;
   opacity: 1;
 }
@@ -517,7 +516,6 @@ body.bdmb {
   display: block;
 }
 .fixbtn ul li a.nav-link.disabled {
-  filter: grayscale(100);
   opacity: 1;
 }
 
@@ -554,6 +552,7 @@ body.bdmb {
   position: relative;
   width: 95%;
   height: 100%;
+  margin: 0 auto;
 }
 .maincontent .content-main {
   overflow: hidden;

@@ -64,7 +64,7 @@ main {position: relative;}
           img{max-width:80%;margin: 0 auto;}
           &:hover{transform: scale(1.02);}
         }
-        a.btn.disabled{filter: grayscale(100);cursor: default;opacity: 1;}
+        a.btn.disabled{cursor: default;opacity: 1;}
       }
     }
   }
@@ -119,7 +119,7 @@ body.bdmb{background: url(../images/bg-tc.jpg) no-repeat fixed top center;backgr
         img.d1{display: none;}
         img.d2{display: block;}
       }
-      a.nav-link.disabled{filter: grayscale(100);opacity: 1;}
+      a.nav-link.disabled{opacity: 1;}
     }
   }
 }
@@ -134,7 +134,7 @@ body.bdmb{background: url(../images/bg-tc.jpg) no-repeat fixed top center;backgr
 
 }
 
-.maincontent{position: relative;width:95%;height: 100%;
+.maincontent{position: relative;width:95%;height: 100%;margin:0 auto;
   .content-main{overflow: hidden;
     h4.title-tc{display: block;
       img{max-width: calc(100% * var(--ratio));display: block;margin: 0 auto;}
