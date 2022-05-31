@@ -94,7 +94,9 @@ main {position: relative;}
   a.linktc{background: url(../images/bg-btn.png) no-repeat top center;display: flex;align-items: center;justify-content: center;width: 124px;height: 39px;}
   a.totop{display: block;text-indent: -9999px;}
 }
+.fbmb{bottom: 10%;position: fixed;z-index: 51;
 
+}
 
 /*==FOOTER=*/
 .footer{min-height: 200px;background: url(../images/topfooter.jpg) no-repeat top center;background-color:#ffffff;border-top:1px solid #2d638da8;
